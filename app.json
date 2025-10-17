@@ -15,7 +15,14 @@
     "updates": {
       "enabled": true,
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/11866352-91fb-48c7-847f-6c12ec7ba673"
+      "url": "https://u.expo.dev/11866352-91fb-48c7-847f-6c12ec7ba673",
+      "requestHeaders": {},
+      "checkAutomatically": "ALWAYS",
+      "useEmbeddedUpdate": true,
+      "codeSigningCertificate": "<UNKNOWN>",
+      "codeSigningMetadata": "<UNKNOWN>",
+      "assetPatternsToBeBundled": [],
+      "disableAntiBrickingMeasures": false
     },
     "assetBundlePatterns": [
       "assets/Fonts/**/*",
@@ -107,10 +114,26 @@
             ],
             "CFBundleURLName": "com.mentalmagnet.mentalMagnetAppios.onelink"
           }
-        ]
+        ],
+        "NSFaceIDUsageDescription": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
       },
       "bundleIdentifier": "com.mentalmagnet.mentalMagnetAppios",
-      "appleTeamId": "8L497B766X"
+      "appleTeamId": "8L497B766X",
+      "entitlements": {
+        "com": {
+          "apple": {
+            "developer": {
+              "networking": {
+                "wifi-info": true
+              }
+            }
+          }
+        }
+      },
+      "requireFullScreen": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "splash": {
@@ -126,7 +149,17 @@
         "android.permission.RECORD_AUDIO",
         "com.android.vending.BILLING",
         "android.permission.READ_MEDIA_IMAGES",
-        "android.permission.READ_MEDIA_VIDEO"
+        "android.permission.READ_MEDIA_VIDEO",
+        "RECORD_AUDIO",
+        "android.permission.VIBRATE",
+        "READ_MEDIA_IMAGES",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE"
       ],
       "intentFilters": [
         {
@@ -162,7 +195,13 @@
     },
     "plugins": [
       "expo-router",
-      "expo-secure-store",
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true,
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
+        }
+      ],
       "expo-font",
       [
         "onesignal-expo-plugin",
@@ -197,9 +236,15 @@
           "iosAppId": "id6740008581"
         }
       ],
-       ["react-native-permissions", {
-        "iosPermissions": ["Microphone", "SpeechRecognition"]
-      }],
+      [
+        "react-native-permissions",
+        {
+          "iosPermissions": [
+            "Microphone",
+            "SpeechRecognition"
+          ]
+        }
+      ],
       [
         "expo-build-properties",
         {
@@ -211,6 +256,18 @@
           "ios": {
             "useFrameworks": "static"
           }
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone"
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
         }
       ]
     ],
