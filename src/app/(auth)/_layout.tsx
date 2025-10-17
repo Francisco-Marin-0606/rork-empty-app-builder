@@ -1,15 +1,21 @@
-// app/(auth)/_layout.tsx
 import { Stack } from 'expo-router';
-import { useAuthStore } from '@/store/authStore';
+import { useSimpleAuthStore } from '@/store/simpleAuthStore';
 import { Redirect } from 'expo-router';
-import { View, ActivityIndicator } from 'react-native';
+import { useEffect } from 'react';
 
 export default function AuthLayout() {
-  const { session, isLoading } = useAuthStore();
+  const { isAuthenticated, isLoading, initialize } = useSimpleAuthStore();
 
-  // Solo redirigimos cuando hay una sesión válida
-  if (session && !isLoading) {
-    return <Redirect href="/login" />;
+  useEffect(() => {
+    initialize();
+  }, []);
+
+  if (isLoading) {
+    return null;
+  }
+
+  if (isAuthenticated) {
+    return <Redirect href="/(app)/(tabs)/(audios)" />;
   }
 
   return (
@@ -24,54 +30,6 @@ export default function AuthLayout() {
         options={{
           title: 'Iniciar sesión',
           headerBackVisible: false,
-        }}
-      />
-      <Stack.Screen 
-        name="verification" 
-        options={{
-          title: 'Verificación',
-          headerBackVisible: false,
-          animation: 'slide_from_right',
-        }}
-      />
-      <Stack.Screen 
-        name="(onboarding)/OnBoardingHypnosisScreen" 
-        options={{
-          title: 'Onboarding',
-          headerBackVisible: false,
-          animation: 'slide_from_right',
-        }}
-      />
-        <Stack.Screen 
-          name="(onboarding)/form-wizard" 
-          options={{
-            title: 'Onboarding',
-            headerBackVisible: false,
-            animation: 'slide_from_right',
-          }}
-        />
-      <Stack.Screen 
-        name="loginView" 
-        options={{
-          title: 'Login',
-          headerBackVisible: false,
-          animation: 'slide_from_right',
-        }}
-      />
-      <Stack.Screen 
-        name="unavailableRegistration" 
-        options={{
-          title: 'Unavailable Registration',
-          headerBackVisible: false,
-          animation: 'slide_from_right',
-        }}
-      />
-      <Stack.Screen 
-        name="confirmedWaitlist" 
-        options={{
-          title: 'Confirmed Waitlist',
-          headerBackVisible: false,
-          animation: 'slide_from_right',
         }}
       />
     </Stack>
