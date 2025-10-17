@@ -1,42 +1,259 @@
 {
   "expo": {
-    "name": "Empty App Builder",
-    "slug": "empty-app-builder",
-    "version": "1.0.0",
+    "name": "Mental",
+    "slug": "Mental-app",
+    "version": "3.1.74",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "icon": "./assets/new_mental_Iogo_ios.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "mentalmagnetapp",
     "splash": {
-      "image": "./assets/images/splash-icon.png",
+      "image": "./assets/Logo-Mental_1024_splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/11866352-91fb-48c7-847f-6c12ec7ba673"
+    },
+    "assetBundlePatterns": [
+      "assets/Fonts/**/*",
+      "assets/Images/**/*",
+      "assets/Icons/**/*"
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     },
     "ios": {
+      "buildNumber": "300",
+      "privacyManifests": {
+        "NSPrivacyCollectedDataTypes": [
+          {
+            "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeCrashData",
+            "NSPrivacyCollectedDataTypeLinked": false,
+            "NSPrivacyCollectedDataTypeTracking": false,
+            "NSPrivacyCollectedDataTypePurposes": [
+              "NSPrivacyCollectedDataTypePurposeAppFunctionality"
+            ]
+          },
+          {
+            "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypePerformanceData",
+            "NSPrivacyCollectedDataTypeLinked": false,
+            "NSPrivacyCollectedDataTypeTracking": false,
+            "NSPrivacyCollectedDataTypePurposes": [
+              "NSPrivacyCollectedDataTypePurposeAppFunctionality"
+            ]
+          },
+          {
+            "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeOtherDiagnosticData",
+            "NSPrivacyCollectedDataTypeLinked": false,
+            "NSPrivacyCollectedDataTypeTracking": false,
+            "NSPrivacyCollectedDataTypePurposes": [
+              "NSPrivacyCollectedDataTypePurposeAppFunctionality"
+            ]
+          }
+        ],
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategorySystemBootTime",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "35F9.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "C617.1"
+            ]
+          }
+        ]
+      },
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.empty-app-builder"
+      "infoPlist": {
+        "CFBundleDisplayName": "Mental",
+        "LSApplicationQueriesSchemes": [
+          "mailto",
+          "itms-apps"
+        ],
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "NSPhotoLibraryUsageDescription": "Mental needs access to your photos to send images to Mental Decoder, a chatbot that interprets numerology, universe signs and more.",
+        "NSCameraUsageDescription": "Mental needs access to your camera to take photos and send them to Mental Decoder, a chatbot that interprets numerology, universe signs and more.",
+        "NSLocationWhenInUseUsageDescription": "Mental needs access to your location while is in use.",
+        "NSSpeechRecognitionUsageDescription": "Mental necesita acceso al reconocimiento de voz para convertir tu voz en texto y facilitar el llenado de formularios.",
+        "NSMicrophoneUsageDescription": "Mental necesita acceso al micrófono para convertir tu voz en texto y facilitar el llenado de formularios.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "mentalmagnetapp"
+            ],
+            "CFBundleURLName": "com.mentalmagnet.mentalMagnetAppios"
+          },
+          {
+            "CFBundleURLSchemes": [
+              "https"
+            ],
+            "CFBundleURLName": "com.mentalmagnet.mentalMagnetAppios.onelink"
+          }
+        ]
+      },
+      "bundleIdentifier": "com.mentalmagnet.mentalMagnetAppios",
+      "appleTeamId": "8L497B766X"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "splash": {
+        "image": "./assets/Logo-Mental_1024_splash_android.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000",
+        "imageWidth": 350
       },
-      "package": "app.rork.empty_app_builder"
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.RECORD_AUDIO",
+        "com.android.vending.BILLING",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "mentalmagnetapp"
+            },
+            {
+              "scheme": "https",
+              "host": "*.mental.app"
+            },
+            {
+              "scheme": "https",
+              "host": "mental.onelink.me"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Mental_Iso_PlayStore.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.mentalmagnet.mentalMagnetApp"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
       [
-        "expo-router",
+        "onesignal-expo-plugin",
         {
-          "origin": "https://rork.com/"
+          "mode": "development"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Mental needs access to your photos to send images to Psilocogo, a chatbot that interprets numerology, universe signs and more.",
+          "cameraPermission": "Mental needs access to your camera to take photos and send them to Psilocogo, a chatbot that interprets numerology, universe signs and more."
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "note": "Use SENTRY_AUTH_TOKEN env to authenticate with Sentry.",
+          "project": "app-mental",
+          "organization": "mental-magnet"
+        }
+      ],
+      "expo-video",
+      "./plugins/withCustomAndroidManifest",
+      "./plugins/withScreenRecordingDetector",
+      [
+        "react-native-appsflyer",
+        {
+          "devKey": "4Drh83vs9bpEu2rPWiNmR4",
+          "isDebug": true,
+          "iosAppId": "id6740008581"
+        }
+      ],
+       ["react-native-permissions", {
+        "iosPermissions": ["Microphone", "SpeechRecognition"]
+      }],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          },
+          "ios": {
+            "useFrameworks": "static"
+          }
         }
       ]
     ],
     "experiments": {
-      "typedRoutes": true
-    }
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "OneSignalNotificationServiceExtension",
+                  "bundleIdentifier": "com.mentalmagnet.mentalMagnetAppios.OneSignalNotificationServiceExtension",
+                  "entitlements": {
+                    "com.apple.security.application-groups": [
+                      "group.com.mentalmagnet.mentalMagnetAppios.onesignal"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "preview": {
+            "distribution": "internal",
+            "android": {
+              "buildType": "apk"
+            },
+            "ios": {
+              "simulator": true
+            },
+            "channel": "preview"
+          }
+        },
+        "projectId": "11866352-91fb-48c7-847f-6c12ec7ba673"
+      },
+      "oneSignalAppId": "35bff50e-438f-422d-89c7-25f966dbe812"
+    },
+    "owner": "mentalmagnet"
   }
 }

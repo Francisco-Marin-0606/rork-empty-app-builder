@@ -1,0 +1,1332 @@
+{
+  "app/(app)/(modals)/forms/questionsForm.tsx": [
+    {
+      "text": "Solicitud ya enviada",
+      "english": "Request already sent"
+    },
+    {
+      "text": "¿Deseas responder estas preguntas luego?",
+      "english": "Do you want to answer these questions later?"
+    },
+    {
+      "text": "Enviando respuestas",
+      "english": "Sending answers"
+    }
+  ],
+  "app/(app)/(modals)/subscriptionManagement/index.tsx": [
+    {
+      "text": "Cargando...",
+      "english": "Loading..."
+    },
+    {
+      "text": "Usuario no encontrado",
+      "english": "User not found"
+    },
+    {
+      "text": "Gestionar Suscripción",
+      "english": "Manage Subscription"
+    },
+    {
+      "text": "Suscripción:",
+      "english": "Subscription:"
+    },
+    {
+      "text": "Plan actual:",
+      "english": "Current plan:"
+    },
+    {
+      "text": "Próximo pago:",
+      "english": "Next payment:"
+    },
+    {
+      "text": "No tienes conexión a Internet.",
+      "english": "You have no internet connection."
+    },
+    {
+      "text": "Suscripción cancelada",
+      "english": "Subscription cancelled"
+    },
+    {
+      "text": "CANCELADA",
+      "english": "CANCELLED"
+    },
+    {
+      "text": "Activa",
+      "english": "Active"
+    },
+    {
+      "text": "Procesando...",
+      "english": "Processing..."
+    },
+    {
+      "text": "Cancelar suscripción",
+      "english": "Cancel subscription"
+    },
+    {
+      "text": "Ya has cancelado tu suscripción.",
+      "english": "You have already cancelled your subscription."
+    },
+    {
+      "text": "Seguirá activa hasta que finalice tu período de pago.",
+      "english": "It will remain active until your payment period ends."
+    },
+    {
+      "text": "Error al cargar datos del usuario",
+      "english": "Error loading user data"
+    },
+    {
+      "text": "No hay datos de membresía disponibles",
+      "english": "No membership data available"
+    },
+    {
+      "text": "Error",
+      "english": "Error"
+    },
+    {
+      "text": "No se pudo procesar la cancelación. Verifica tu conexión a internet.",
+      "english": "Could not process cancellation. Check your internet connection."
+    },
+    {
+      "text": "Tu suscripción ha sido cancelada exitosamente. Podrás seguir usando la app hasta el final del período actual.",
+      "english": "Your subscription has been successfully cancelled. You can continue using the app until the end of the current period."
+    },
+    {
+      "text": "No se pudo cancelar la suscripción. Por favor, intenta nuevamente.",
+      "english": "Could not cancel subscription. Please try again."
+    }
+  ],
+  "app/(app)/(tabs)/(audios)/_layout.tsx": [
+    {
+      "text": "Mis hipnosis",
+      "english": "My hypnosis"
+    },
+    {
+      "text": "Mis descargas",
+      "english": "My downloads"
+    },
+    {
+      "text": "Por si tienes un vuelo, o no pagaste el wifi.",
+      "english": "In case you have a flight, or didn't pay for wifi."
+    }
+  ],
+  "app/(app)/(tabs)/(audios)/index.tsx": [
+    {
+      "text": "Anteriores",
+      "english": "Previous"
+    },
+    {
+      "text": "Nuevas",
+      "english": "New"
+    },
+    {
+      "text": "Pedir mi nueva hipnosis",
+      "english": "Request my new hypnosis"
+    },
+    {
+      "text": "No tienes hipnosis descargadas",
+      "english": "You don't have any hypnosis downloaded"
+    },
+    {
+      "text": "No es culpa del universo. Es que no te has conectado a internet.\n\nConéctate y descarga tus hipnosis para escucharlas en el avión o en la Luna.",
+      "english": "It's not the universe's fault. You just haven't connected to the internet.\n\nConnect and download your hypnosis to listen to them on the plane or on the Moon."
+    },
+    {
+      "text": "Pide tu primera hipnosis",
+      "english": "Request your first hypnosis"
+    },
+    {
+      "text": "Cada vez que pidas una, a los 15 días te \nhabilitaré para que puedas pedirme tu \nsiguiente hipnosis.",
+      "english": "Every time you request one, in 15 days I'll \nenable you to request your \nnext hypnosis from me."
+    },
+    {
+      "text": "Es broma, algo falló en el sistema. Intenta de nuevo.",
+      "english": "Just kidding, something failed in the system. Try again."
+    },
+    {
+      "text": "Sí, ya sé… tienes que escribir todo otra vez. Pero si pasó, es por algo. Confía.",
+      "english": "Yes, I know... you have to write everything again. But if it happened, it's for a reason. Trust."
+    },
+    {
+      "text": "Volver al mundo",
+      "english": "Back to the world"
+    }
+  ],
+  "app/(app)/(tabs)/aura/album/index.tsx": [
+    {
+      "text": "Álbum no encontrado",
+      "english": "Album not found"
+    },
+    {
+      "text": "¿Eliminar de descargas?",
+      "english": "Remove from downloads?"
+    },
+    {
+      "text": "Álbum descargado",
+      "english": "Album downloaded"
+    },
+    {
+      "text": "Descargar Álbum",
+      "english": "Download Album"
+    }
+  ],
+  "app/(app)/(tabs)/chat/index.tsx": [
+    {
+      "text": "Renovar membresía",
+      "english": "Renew membership"
+    },
+    {
+      "text": "No tienes acceso",
+      "english": "You don't have access"
+    },
+    {
+      "text": "Checa el estado de tu cuenta para acceder al Psilócogo",
+      "english": "Check your account status to access the Psilócogo"
+    }
+  ],
+  "app/(app)/new-player.tsx": [
+    {
+      "text": "Cierra los ojos...",
+      "english": "Close your eyes..."
+    }
+  ],
+  "app/(app)/profile.tsx": [
+    {
+      "text": "Mi cuenta",
+      "english": "My account"
+    },
+    {
+      "text": "Suscripción",
+      "english": "Subscription"
+    },
+    {
+      "text": "Términos de uso",
+      "english": "Terms of use"
+    },
+    {
+      "text": "Políticas de privacidad",
+      "english": "Privacy policy"
+    },
+    {
+      "text": "Sin conexión",
+      "english": "No connection"
+    },
+    {
+      "text": "Información de contacto",
+      "english": "Contact information"
+    },
+    {
+      "text": "Suscripción restaurada",
+      "english": "Subscription restored"
+    },
+    {
+      "text": "Sin suscripción",
+      "english": "No subscription"
+    },
+    {
+      "text": "Gestionar suscripción",
+      "english": "Manage subscription"
+    },
+    {
+      "text": "Editar mi perfil",
+      "english": "Edit my profile"
+    },
+    {
+      "text": "Preguntas frecuentes",
+      "english": "Frequently asked questions"
+    },
+    {
+      "text": "Contacto",
+      "english": "Contact"
+    },
+    {
+      "text": "Cerrar sesión",
+      "english": "Sign out"
+    },
+    {
+      "text": "Mensual",
+      "english": "Monthly"
+    },
+    {
+      "text": "ACTIVA",
+      "english": "ACTIVE"
+    },
+    {
+      "text": "Versión de la app",
+      "english": "App version"
+    },
+    {
+      "text": "No se pudo abrir la aplicación de correo. Por favor, envíame un correo a apoyo@mental.app con el asunto: Contacto desde la aplicación",
+      "english": "Could not open the email application. Please send me an email to apoyo@mental.app with the subject: Contact from the application"
+    },
+    {
+      "text": "Contacto desde la aplicación",
+      "english": "Contact from the application"
+    },
+    {
+      "text": "Error al abrir la aplicación de correo: Error:",
+      "english": "Error opening the email application: Error:"
+    }
+  ],
+  "app/(auth)/(onboarding)/OnBoardingHypnosisScreen.tsx": [
+    {
+      "text": "Ojo:",
+      "english": "Note:"
+    },
+    {
+      "text": "¿Deseas responder estas preguntas luego?",
+      "english": "Do you want to answer these questions later?"
+    },
+    {
+      "text": "Ahora\nvendrán\ntres\npreguntas\nmedio raras",
+      "english": "Now\nthree\nkinda weird\nquestions\nwill come"
+    },
+    {
+      "text": "lo que respondas es lo\nque vas a vivir.",
+      "english": "what you answer is what\nyou're going to experience."
+    },
+    {
+      "text": "Comenzar",
+      "english": "Start"
+    },
+    {
+      "text": "No",
+      "english": "No"
+    },
+    {
+      "text": "Sí",
+      "english": "Yes"
+    }
+  ],
+  "app/(auth)/confirmedWaitlist.tsx": [
+    {
+      "text": "Recibido.",
+      "english": "Received."
+    }
+  ],
+  "app/(auth)/loginView.tsx": [
+    {
+      "text": "Iniciar Sesión",
+      "english": "Sign In"
+    },
+    {
+      "text": "Ya tienes cuenta,\ninicia sesión",
+      "english": "You already have an account,\nsign in"
+    },
+    {
+      "text": "Correo electrónico",
+      "english": "Email"
+    },
+    {
+      "text": "Entrar",
+      "english": "Enter"
+    },
+    {
+      "text": "Email inválido",
+      "english": "Invalid email"
+    },
+    {
+      "text": "Este correo no está registrado. Verifica que esté correcto o crea una cuenta nueva.",
+      "english": "This email is not registered. Please verify it's correct or create a new account."
+    },
+    {
+      "text": "O yo soy muy tonto o este correo no está registrado en mi lista de usuarios.",
+      "english": "Either I'm very stupid or this email is not registered in my user list."
+    }
+  ],
+  "helpers/miscellaneous.ts": [
+    {
+      "text": "Este campo es obligatorio",
+      "english": "This field is required"
+    },
+    {
+      "text": "Fecha inválida",
+      "english": "Invalid date"
+    },
+    {
+      "text": "Mínimo ${field.minLength} caracteres",
+      "english": "Minimum ${field.minLength} characters"
+    },
+    {
+      "text": "Máximo ${field.maxLength} caracteres",
+      "english": "Maximum ${field.maxLength} characters"
+    },
+    {
+      "text": "Email inválido",
+      "english": "Invalid email"
+    },
+    {
+      "text": "Ingresa un correo electrónico válido",
+      "english": "Enter a valid email address"
+    },
+    {
+      "text": "Este correo ya está registrado, inicia sesión.",
+      "english": "This email is already registered, please sign in."
+    },
+    {
+      "text": "Debe ser un número válido",
+      "english": "Must be a valid number"
+    }
+  ],
+  "app/(auth)/verification.tsx": [
+    {
+      "text": "Verifica tu identidad",
+      "english": "Verify your identity"
+    },
+    {
+      "text": "¿No has recibido tú código?",
+      "english": "Haven't you received your code?"
+    },
+    {
+      "text": "Ingresa el código que llegó a tu correo",
+      "english": "Enter the code that arrived in your email"
+    },
+    {
+      "text": "Tiene cuatro dígitos. Y una duración de 555 segundos. (No hagas la cuenta, te sobra tiempo)",
+      "english": "It has four digits. And a duration of 555 seconds. (Don't do the math, you have plenty of time)"
+    },
+    {
+      "text": "Error al verificar el código, inténtelo nuevamente.",
+      "english": "Error verifying code, please try again."
+    },
+    {
+      "text": "No era probable, pero te equivocaste, o pasaron más de 555 segundos, checa de nuevo.",
+      "english": "It wasn't likely, but you were wrong, or more than 555 seconds passed, check again."
+    },
+    {
+      "text": "Reenviar código",
+      "english": "Resend code"
+    },
+    {
+      "text": "Ingresa el código\nque llegó a tu correo",
+      "english": "Enter the code\nthat arrived in your email"
+    },
+    {
+      "text": "Tiene cuatro dígitos. \nY una duración de 555 segundos.\n(No hagas la cuenta, te sobra tiempo)",
+      "english": "It has four digits. \nAnd a duration of 555 seconds.\n(Don't do the math, you have plenty of time)"
+    },
+    {
+      "text": "Verificar",
+      "english": "Verify"
+    },
+    {
+      "text": "Error de conexión, inténtelo nuevamente.",
+      "english": "Connection error, please try again."
+    },
+    {
+      "text": "segundo",
+      "english": "second"
+    },
+    {
+      "text": "segundos",
+      "english": "seconds"
+    },
+    {
+      "text": "Verificar",
+      "english": "Verify"
+    }
+  ],
+  "components/RequestHipnosisScreen.tsx": [
+    {
+      "text": "Vuelvo otra vez:",
+      "english": "I come back again:"
+    },
+    {
+      "text": "este es un gran momento.",
+      "english": "this is a great moment."
+    }
+  ],
+  "dynamic-content/hypnosis-titles": [
+    {
+      "text": "Un deseo callado",
+      "english": "A silent wish"
+    },
+    {
+      "text": "Un deseo sin nombre",
+      "english": "A nameless wish"
+    },
+    {
+      "text": "Nada que pedir",
+      "english": "Nothing to ask for"
+    },
+    {
+      "text": "YA DISPONIBLE",
+      "english": "NOW AVAILABLE"
+    }
+  ],
+  "app/(auth)/login.tsx": [
+    {
+      "text": "Crear cuenta",
+      "english": "Create Account"
+    },
+    {
+      "text": "Iniciar sesión",
+      "english": "Sign In"
+    }
+  ],
+  "app/(auth)/unavailableRegistration.tsx": [
+    {
+      "text": "Si quieres probar, déjame tu correo y te aviso cuando pueda.",
+      "english": "If you want to try, leave me your email and I'll let you know when I can."
+    }
+  ],
+  "components/CaptureBlockerModal.tsx": [
+    {
+      "text": "El contenido está diseñado para vivirse, no para compartirse.",
+      "english": "The content is designed to be experienced, not shared."
+    },
+    {
+      "text": "Prefiero que no grabes. Seguro lo entiendes.",
+      "english": "I prefer you don't record. I'm sure you understand."
+    },
+    {
+      "text": "Gracias",
+      "english": "Thanks"
+    }
+  ],
+  "components/ChatRefactor.tsx": [
+    {
+      "text": "Déjalo que fluya...",
+      "english": "Let it flow..."
+    },
+    {
+      "text": "Anoche soñé algo rarísimo",
+      "english": "Last night I dreamed something very strange"
+    },
+    {
+      "text": "No sé qué me pasa",
+      "english": "I don't know what's wrong with me"
+    },
+    {
+      "text": "¿Y si todo sale bien?",
+      "english": "What if everything goes well?"
+    },
+    {
+      "text": "No sé qué quiero",
+      "english": "I don't know what I want"
+    },
+    {
+      "text": "¿Qué hago si estoy triste?",
+      "english": "What do I do if I'm sad?"
+    },
+    {
+      "text": "Siento que algo va a pasar",
+      "english": "I feel like something is going to happen"
+    },
+    {
+      "text": "Creo que vi una señal",
+      "english": "I think I saw a sign"
+    },
+    {
+      "text": "Me acordé de algo",
+      "english": "I remembered something"
+    },
+    {
+      "text": "Mi cuerpo sabe algo que yo no",
+      "english": "My body knows something I don't"
+    },
+    {
+      "text": "¿Por qué me siento raro hoy?",
+      "english": "Why do I feel weird today?"
+    }
+  ],
+  "components/ChatWelcomeScreen.tsx": [
+    {
+      "text": "Como tu psicólogo, pero más loco. . .",
+      "english": "Like your psychologist, but crazier..."
+    }
+  ],
+  "components/CircularCarousel.tsx": [
+    {
+      "text": "Tu hipnosis está siendo creada...",
+      "english": "Your hypnosis is being created..."
+    },
+    {
+      "text": "Hipnosis no disponible",
+      "english": "Hypnosis not available"
+    }
+  ],
+  "components/CommentsModal.tsx": [
+    {
+      "text": "Cargando más comentarios...",
+      "english": "Loading more comments..."
+    },
+    {
+      "text": "No hay más comentarios",
+      "english": "No more comments"
+    },
+    {
+      "text": "Escribe un comentario…",
+      "english": "Write a comment..."
+    }
+  ],
+  "components/EventList.tsx": [
+    {
+      "text": "En vivo",
+      "english": "Live"
+    },
+    {
+      "text": "No tienes acceso",
+      "english": "You don't have access"
+    }
+  ],
+  "components/FormInput.tsx": [
+    {
+      "text": "¿Seguro que eres tan joven?",
+      "english": "Are you sure you're that young?"
+    }
+  ],
+  "components/FormWizard.tsx": [
+    {
+      "text": "¿Todo listo?",
+      "english": "Everything ready?"
+    },
+    {
+      "text": "Es broma, algo falló en el sistema. Intenta de nuevo.",
+      "english": "Just kidding, something failed in the system. Try again."
+    },
+    {
+      "text": "Sí, ya sé… tienes que escribir todo otra vez. Pero si pasó, es por algo. Confía.",
+      "english": "Yes, I know... you have to write everything again. But if it happened, it's for a reason. Trust."
+    },
+    {
+      "text": "Volver",
+      "english": "Go back"
+    },
+    {
+      "text": "Atrás",
+      "english": "Back"
+    }
+  ],
+  "components/FormWizardOnBoarding.tsx": [
+    {
+      "text": "¿Todo listo?",
+      "english": "Everything ready?"
+    },
+    {
+      "text": "¿Deseas responder estas preguntas luego?",
+      "english": "Do you want to answer these questions later?"
+    },
+    {
+      "text": "Error de conexión",
+      "english": "Connection error"
+    },
+    {
+      "text": "¿Cómo quieres que te llame?",
+      "english": "What do you want me to call you?"
+    },
+    {
+      "text": "Escríbelo como se lee, y si tiene algún acento raro, márcalo. (Que no es lo mismo Julián, que Julian o Yulian)",
+      "english": "Write it as it's read, and if it has a strange accent, mark it. (It's not the same Julián as Julian or Yulian)"
+    },
+    {
+      "text": "Escríbelo aquí...",
+      "english": "Write it here..."
+    },
+    {
+      "text": "Tu correo electrónico",
+      "english": "Your email address"
+    },
+    {
+      "text": "Escribe tu correo aquí...",
+      "english": "Write your email here..."
+    },
+    {
+      "text": "Estas son las respuestas que quieres enviar, ¿cierto?",
+      "english": "These are the answers you want to send, right?"
+    },
+    {
+      "text": "Una vez enviadas, no podrás cambiarlas.",
+      "english": "Once sent, you won't be able to change them."
+    },
+    {
+      "text": "Enviar sin miedo",
+      "english": "Send without fear"
+    },
+    {
+      "text": "Revisar respuestas",
+      "english": "Review answers"
+    },
+    {
+      "text": "Sí",
+      "english": "Yes"
+    },
+    {
+      "text": "No pudimos verificar tu correo electrónico debido a un problema de conexión. Verifica tu conexión a internet e intenta nuevamente.",
+      "english": "We couldn't verify your email due to a connection problem. Check your internet connection and try again."
+    },
+    {
+      "text": "Volver al mundo",
+      "english": "Back to the world"
+    },
+    {
+      "text": "Atrás",
+      "english": "Back"
+    },
+    {
+      "text": "Respuesta",
+      "english": "Answer"
+    },
+    {
+      "text": "Escríbelo aquí",
+      "english": "Write it here"
+    }
+  ],
+  "components/FullPlayerOverlay.tsx": [
+    {
+      "text": "Reproduciendo ahora",
+      "english": "Playing now"
+    }
+  ],
+  "components/HypnosisBottomSheet.tsx": [
+    {
+      "text": "Duración:",
+      "english": "Duration:"
+    },
+    {
+      "text": "Cargando preguntas...",
+      "english": "Loading questions..."
+    },
+    {
+      "text": "No hay respuestas disponibles",
+      "english": "No answers available"
+    },
+    {
+      "text": "Eliminar descarga",
+      "english": "Delete download"
+    },
+    {
+      "text": "Reproducir",
+      "english": "Play"
+    },
+    {
+      "text": "Descargar",
+      "english": "Download"
+    },
+    {
+      "text": "Descargada",
+      "english": "Downloaded"
+    },
+    {
+      "text": "Ver explicación",
+      "english": "See explanation"
+    },
+    {
+      "text": "Mensaje para ti",
+      "english": "Message for you"
+    },
+    {
+      "text": "Mis respuestas",
+      "english": "My answers"
+    },
+    {
+      "text": "No se encontró información de esta hipnosis",
+      "english": "No information found for this hypnosis"
+    },
+    {
+      "text": "Error al cargar las preguntas",
+      "english": "Error loading questions"
+    }
+  ],
+  "components/HypnosisInstructionsScreen.tsx": [
+    {
+      "text": "Apaga tus\nnotificaciones.",
+      "english": "Turn off your\nnotifications."
+    },
+    {
+      "text": "Escucha con\naudífonos.",
+      "english": "Listen with\nheadphones."
+    },
+    {
+      "text": "Siéntate con\ntu espalda recta.",
+      "english": "Sit with\nyour back straight."
+    },
+    {
+      "text": "y cierra los ojos.",
+      "english": "and close your eyes."
+    },
+    {
+      "text": "Comenzar",
+      "english": "Start"
+    }
+  ],
+  "components/NoInternetAlert.tsx": [
+    {
+      "text": "No tienes conexión a Internet.",
+      "english": "You have no internet connection."
+    }
+  ],
+  "components/NoInternetScreen.tsx": [
+    {
+      "text": "¡Feliz 1998!",
+      "english": "Happy 1998!"
+    },
+    {
+      "text": "No tienes conexión a Internet.",
+      "english": "You have no internet connection."
+    }
+  ],
+  "components/ProfileForm.tsx": [
+    {
+      "text": "Fecha de nacimiento",
+      "english": "Birth date"
+    },
+    {
+      "text": "Género",
+      "english": "Gender"
+    },
+    {
+      "text": "Listo",
+      "english": "Done"
+    },
+    {
+      "text": "Este campo es requerido",
+      "english": "This field is required"
+    }
+  ],
+  "app/(app)/(modals)/forms/userPersonalDataForm.tsx": [
+    {
+      "text": "Nombre",
+      "english": "Name"
+    },
+    {
+      "text": "Ingresa tu nombre",
+      "english": "Enter your name"
+    },
+    {
+      "text": "Apellido",
+      "english": "Last name"
+    },
+    {
+      "text": "Ingresa tus apellidos",
+      "english": "Enter your last names"
+    },
+    {
+      "text": "¿Cómo quieres que te llamen?",
+      "english": "What do you want to be called?"
+    },
+    {
+      "text": "Ingresa tu apodo",
+      "english": "Enter your nickname"
+    },
+    {
+      "text": "Escríbelo como se lee, y si tiene algún acento raro, márcalo. (Que no es lo mismo Julián, que Julian, o Yulian).",
+      "english": "Write it as it's read, and if it has a strange accent, mark it. (It's not the same Julián as Julian, or Yulian)."
+    },
+    {
+      "text": "Tu correo electrónico",
+      "english": "Your email address"
+    },
+    {
+      "text": "Error al actualizar datos",
+      "english": "Error updating data"
+    },
+    {
+      "text": "Ha ocurrido un error al actualizar tus datos. Por favor intenta nuevamente.",
+      "english": "An error occurred while updating your data. Please try again."
+    }
+  ],
+  "app/(app)/(modals)/forms/userPersonalDataFormInitial.tsx": [
+    {
+      "text": "Completa tus datos antes de pedir tu hipnosis",
+      "english": "Complete your data before requesting your hypnosis"
+    },
+    {
+      "text": "Antes de pedir tu primera hipnosis personalizada, y para que sea de verdad personalizada, deja aquí tus datos.",
+      "english": "Before requesting your first personalized hypnosis, and for it to be truly personalized, leave your data here."
+    }
+  ],
+  "components/ProgressSteps.tsx": [
+    {
+      "text": "Ver todas",
+      "english": "View all"
+    }
+  ],
+  "components/SimpleForm.tsx": [
+    {
+      "text": "Siguiente",
+      "english": "Next"
+    },
+    {
+      "text": "Atrás",
+      "english": "Back"
+    }
+  ],
+  "components/SessionExpiredModal.tsx": [
+    {
+      "text": "Hubo un problema",
+      "english": "There was a problem"
+    },
+    {
+      "text": "Por favor, inicia sesión nuevamente para continuar.",
+      "english": "Please sign in again to continue."
+    }
+  ],
+  "components/SpeechToTextButton.tsx": [
+    {
+      "text": "Escuchando",
+      "english": "Listening"
+    },
+    {
+      "text": "Acceso al micrófono denegado",
+      "english": "Microphone access denied"
+    },
+    {
+      "text": "Ve a la app de Configuración para darle acceso a Mental.",
+      "english": "Go to the Settings app to give Mental access."
+    },
+    {
+      "text": "Ahora no",
+      "english": "Not now"
+    },
+    {
+      "text": "Ir a Configuración",
+      "english": "Go to Settings"
+    },
+    {
+      "text": "Error",
+      "english": "Error"
+    },
+    {
+      "text": "No se pudo procesar la solicitud de voz.",
+      "english": "Could not process voice request."
+    }
+  ],
+  "components/SubscriptionCancelModal.tsx": [
+    {
+      "text": "El siguiente click abre una línea de tiempo en la que no podrás pedir nuevas hipnosis.",
+      "english": "The next click opens a timeline where you won't be able to request new hypnosis."
+    },
+    {
+      "text": "Y para escuchar las anteriores, tendrás que renovar tu suscripción.",
+      "english": "And to listen to the previous ones, you'll have to renew your subscription."
+    },
+    {
+      "text": "No, deseo continuar",
+      "english": "No, I want to continue"
+    },
+    {
+      "text": "¿Estás seguro que\nquieres cancelar tu\nsuscripción a Mental?",
+      "english": "Are you sure you\nwant to cancel your\nMental subscription?"
+    },
+    {
+      "text": "Sí, quiero cancelar",
+      "english": "Yes, I want to cancel"
+    }
+  ],
+  "components/SuccessScreen.tsx": [
+    {
+      "text": "Tu hipnosis\nestá siendo\ncreada",
+      "english": "Your hypnosis\nis being\ncreated"
+    },
+    {
+      "text": "En menos de 1140 minutos",
+      "english": "In less than 1140 minutes"
+    },
+    {
+      "text": "(24h)\nte enviaré tu hipnosis.",
+      "english": "(24h)\nI'll send you your hypnosis."
+    },
+    {
+      "text": "Volver",
+      "english": "Go back"
+    }
+  ],
+  "components/TrackListItem.tsx": [
+    {
+      "text": "Eliminar descarga",
+      "english": "Delete download"
+    },
+    {
+      "text": "Reproducir",
+      "english": "Play"
+    },
+    {
+      "text": "Descargar hipnosis",
+      "english": "Download hypnosis"
+    },
+    {
+      "text": "Eliminar de mis descargas",
+      "english": "Remove from my downloads"
+    },
+    {
+      "text": "Descargando...",
+      "english": "Downloading..."
+    },
+    {
+      "text": "Preguntas y respuestas",
+      "english": "Questions and answers"
+    },
+    {
+      "text": "Cambiar nombre",
+      "english": "Change name"
+    },
+    {
+      "text": "No puedes cambiar el nombre de la hipnosis que estás escuchando.",
+      "english": "You cannot change the name of the hypnosis you are listening to."
+    },
+    {
+      "text": "¿Estás seguro que deseas eliminar esta hipnosis de tus descargas?",
+      "english": "Are you sure you want to delete this hypnosis from your downloads?"
+    },
+    {
+      "text": "Cancelar",
+      "english": "Cancel"
+    },
+    {
+      "text": "Eliminar",
+      "english": "Delete"
+    }
+  ],
+  "app/(app)/(modals)/RequestInfoPage.tsx": [
+    {
+      "text": "Oops!",
+      "english": "Oops!"
+    },
+    {
+      "text": "No se encontró información de esta hipnosis",
+      "english": "No information found for this hypnosis"
+    },
+    {
+      "text": "Regresar",
+      "english": "Go back"
+    },
+    {
+      "text": "No se encontró el ID de la solicitud de audio",
+      "english": "Audio request ID not found"
+    },
+    {
+      "text": "Error al cargar las preguntas",
+      "english": "Error loading questions"
+    }
+  ],
+  "components/UpdateModal.tsx": [
+    {
+      "text": "Te estás perdiendo una mejor versión de esta app.",
+      "english": "You're missing out on a better version of this app."
+    },
+    {
+      "text": "(No, perdón, MUCHO mejor)",
+      "english": "(No, sorry, MUCH better)"
+    },
+    {
+      "text": "Dale a \"actualizar\" para seguir usando Mental.",
+      "english": "Tap \"update\" to keep using Mental."
+    },
+    {
+      "text": "Actualizar",
+      "english": "Update"
+    }
+  ],
+  "components/VideoPlayerWithComments.tsx": [
+    {
+      "text": "15s",
+      "english": "15s"
+    },
+    {
+      "text": "Saltar",
+      "english": "Skip"
+    }
+  ],
+  "components/VideoScreen.tsx": [
+    {
+      "text": "15s",
+      "english": "15s"
+    },
+    {
+      "text": "Saltar",
+      "english": "Skip"
+    }
+  ],
+  "hooks/useImagePicker.ts": [
+    {
+      "text": "Permisos",
+      "english": "Permissions"
+    },
+    {
+      "text": "Mental requiere acceso a tus fotos para enviar imágenes al Psilocogo, un chatbot que interpreta numerología, señales del universo y más.",
+      "english": "Mental requires access to your photos to send images to the Psilocogo, a chatbot that interprets numerology, universe signs and more."
+    },
+    {
+      "text": "Cerrar",
+      "english": "Close"
+    },
+    {
+      "text": "Tamaño excedido",
+      "english": "Size exceeded"
+    },
+    {
+      "text": "La imagen es demasiado grande. El tamaño máximo permitido es ${maxSizeMB}MB.",
+      "english": "The image is too large. The maximum allowed size is ${maxSizeMB}MB."
+    },
+    {
+      "text": "Error",
+      "english": "Error"
+    },
+    {
+      "text": "Error al seleccionar la imagen.",
+      "english": "Error selecting the image."
+    }
+  ],
+  "hooks/useNetworkStatus.ts": [
+    {
+      "text": "Sin conexión",
+      "english": "No connection"
+    },
+    {
+      "text": "Acción guardada",
+      "english": "Action saved"
+    },
+    {
+      "text": "Se ejecutará cuando tengas conexión",
+      "english": "It will run when you have connection"
+    }
+  ],
+  "hooks/useSpeechRecognition.ts": [
+    {
+      "text": "Permiso de micrófono requerido",
+      "english": "Microphone permission required"
+    },
+    {
+      "text": "Para usar el dictado por voz, habilita el permiso de micrófono en Ajustes.",
+      "english": "To use voice dictation, enable microphone permission in Settings."
+    },
+    {
+      "text": "Cancelar",
+      "english": "Cancel"
+    },
+    {
+      "text": "Abrir ajustes",
+      "english": "Open settings"
+    },
+    {
+      "text": "Acceso al micrófono denegado",
+      "english": "Microphone access denied"
+    },
+    {
+      "text": "Ve a la app de Configuración para darle acceso a Mental.",
+      "english": "Go to the Settings app to give Mental access."
+    },
+    {
+      "text": "Ahora no",
+      "english": "Not now"
+    },
+    {
+      "text": "Ir a Configuración",
+      "english": "Go to Settings"
+    },
+    {
+      "text": "Error",
+      "english": "Error"
+    },
+    {
+      "text": "No se pudo procesar la solicitud de voz.",
+      "english": "Could not process voice request."
+    }
+  ],
+  "store/library.tsx": [
+    {
+      "text": "Error de descarga",
+      "english": "Download error"
+    },
+    {
+      "text": "No se pudo descargar el audio. Por favor, inténtalo de nuevo más tarde.",
+      "english": "Could not download the audio. Please try again later."
+    },
+    {
+      "text": "Ocurrió un error al descargar el audio. Por favor, inténtalo de nuevo más tarde.",
+      "english": "An error occurred while downloading the audio. Please try again later."
+    },
+    {
+      "text": "Aceptar",
+      "english": "Accept"
+    },
+    {
+      "text": "Estoy creando tu hipnosis",
+      "english": "I'm creating your hypnosis"
+    }
+  ],
+  "store/newLibrary.tsx": [
+    {
+      "text": "Error de descarga",
+      "english": "Download error"
+    },
+    {
+      "text": "Sin conexión",
+      "english": "No connection"
+    },
+    {
+      "text": "Descarga completada",
+      "english": "Download completed"
+    },
+    {
+      "text": "se ha descargado correctamente y está disponible offline.",
+      "english": "has been downloaded successfully and is available offline."
+    },
+    {
+      "text": "Aceptar",
+      "english": "Accept"
+    },
+    {
+      "text": "Audio eliminado",
+      "english": "Audio deleted"
+    }
+  ],
+  "providers/PlayerProvider.tsx": [
+    {
+      "text": "No se pudo reproducir el audio en el navegador",
+      "english": "Could not play audio in browser"
+    }
+  ],
+  "store/auraStore.tsx": [
+    {
+      "text": "Descripción no disponible",
+      "english": "Description not available"
+    }
+  ],
+  "app/(app)/(tabs)/aura/index.tsx": [
+    {
+      "text": "Swipe horizontal para cambiar de canción",
+      "english": "Swipe horizontally to change song"
+    },
+    {
+      "text": "Para ti",
+      "english": "For you"
+    },
+    {
+      "text": "Pausar",
+      "english": "Pause"
+    },
+    {
+      "text": "Reproducir",
+      "english": "Play"
+    },
+    {
+      "text": "Aleatorio",
+      "english": "Random"
+    }
+  ],
+  "components/PlayerSheet.tsx": [
+    {
+      "text": "Swipe zone",
+      "english": "Swipe zone"
+    },
+    {
+      "text": "Swipe horizontal para cambiar de canción",
+      "english": "Swipe horizontally to change song"
+    }
+  ],
+  "components/GlobalPlayerOverlay.tsx": [
+    {
+      "text": "Swipe zone",
+      "english": "Swipe zone"
+    },
+    {
+      "text": "Swipe horizontal para cambiar de canción",
+      "english": "Swipe horizontally to change song"
+    }
+  ],
+  "components/PaywallScreenRenewal.tsx": [
+    {
+      "text": "No se pudo obtener la información del usuario",
+      "english": "Could not get user information"
+    },
+    {
+      "text": "Error al configurar el sistema de pagos",
+      "english": "Error configuring payment system"
+    },
+    {
+      "text": "No se pudo obtener el ID de usuario",
+      "english": "Could not get user ID"
+    },
+    {
+      "text": "Hubo un problema procesando tu suscripción. Por favor, contacta soporte si el problema persiste.",
+      "english": "There was a problem processing your subscription. Please contact support if the problem persists."
+    },
+    {
+      "text": "Volver",
+      "english": "Go back"
+    },
+    {
+      "text": "Error",
+      "english": "Error"
+    }
+  ],
+  "app/(app)/(tabs)/events/index.tsx": [
+    {
+      "text": "No pudimos cargar los eventos. Por favor, intenta de nuevo.",
+      "english": "We couldn't load the events. Please try again."
+    },
+    {
+      "text": "No pudimos cargar los eventos",
+      "english": "We couldn't load the events"
+    },
+    {
+      "text": "Porfavor, intenta de nuevo.",
+      "english": "Please try again."
+    }
+  ],
+  "app/(app)/(modals)/hypnosisDataForm.tsx": [
+    {
+      "text": "Nombre de la hipnosis",
+      "english": "Hypnosis name"
+    },
+    {
+      "text": "Ingresa el nombre del audio",
+      "english": "Enter the audio name"
+    },
+    {
+      "text": "Fallo en la matrix.",
+      "english": "Matrix failure."
+    },
+    {
+      "text": "No se pudo encontrar la información del audio solicitado.",
+      "english": "Could not find the requested audio information."
+    },
+    {
+      "text": "ID de audio no encontrado",
+      "english": "Audio ID not found"
+    },
+    {
+      "text": "Ha ocurrido un error al intentar cambiar el nombre de tu hipnosis. Intenta otra vez.",
+      "english": "An error occurred while trying to change your hypnosis name. Try again."
+    }
+  ],
+  "app/(app)/(modals)/hypnosisBottomSheetScreen.tsx": [
+    {
+      "text": "Pedir mi hipnosis",
+      "english": "Request my hypnosis"
+    }
+  ],
+  "components/PostHypnosisModal.tsx": [
+    {
+      "text": "acabas de atravesar el portal.",
+      "english": "you just crossed the portal."
+    }
+  ],
+  "components/Error.tsx": [
+    {
+      "text": "Oops, Algo salió mal",
+      "english": "Oops, Something went wrong"
+    },
+    {
+      "text": "Ha ocurrido un error al procesar tu solicitud. Por favor intenta nuevamente más tarde.",
+      "english": "An error occurred while processing your request. Please try again later."
+    },
+    {
+      "text": "Regresar",
+      "english": "Go back"
+    }
+  ],
+  "components/LoadingScreen.tsx": [
+    {
+      "text": "Cargando...",
+      "english": "Loading..."
+    }
+  ],
+  "components/TrackList.tsx": [
+    {
+      "text": "Pedir mi nueva hipnosis",
+      "english": "Request my new hypnosis"
+    }
+  ]
+}

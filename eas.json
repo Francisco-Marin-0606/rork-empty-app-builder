@@ -1,0 +1,53 @@
+{
+  "cli": {
+    "version": ">= 14.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "env": {
+        "EXPO_PUBLIC_UPDATE_CHANNEL": "preview",
+        "SENTRY_ALLOW_FAILURE": "true"
+      }
+    },
+    "testflight": {
+      "distribution": "store",
+      "channel": "testflight",
+      "ios": {
+        "buildConfiguration": "Release"
+      },
+      "env": {
+        "EXPO_PUBLIC_UPDATE_CHANNEL": "testflight"
+      },
+      "extends": "production"
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production"
+    },
+    "production-apk": {
+      "autoIncrement": true,
+      "channel": "production",
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "production": {},
+    "testflight": {
+      "ios": {
+        "appleId": "agubolso2@gmail.com",
+        "ascAppId": "6474561950",
+        "appleTeamId": "DWG6432ZV5"
+      }
+    }
+  }
+}
